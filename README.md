@@ -523,7 +523,6 @@ docker-logistik/
 │       └── transaksi.js    ← CRUD transaksi ke MySQL
 │
 ├── nginx/                  ← Web Server (Nginx)
-│   ├── Dockerfile
 │   └── nginx.conf          ← Reverse proxy ke api-engine:3000
 │
 └── logs/                   ← Shared Bind Mount (host ↔ 2 container)
